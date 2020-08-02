@@ -1,3 +1,2 @@
-import './styles/main.scss';
-
-export * from './scripts/stringUtils';
+export * as urlUtils from './scripts/urlUtils';
+export * as stringUtils from './scripts/stringUtils';

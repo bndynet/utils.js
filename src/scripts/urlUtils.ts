@@ -19,7 +19,7 @@ export function object2Url(urlObject: UrlObject): string {
     url +=
       '?' +
       Object.keys(urlObject.search)
-        .map(key => {
+        .map((key) => {
           if (urlObject.search && urlObject.search[key]) {
             return `${key}=${urlObject.search[key]}`;
           } else {
@@ -33,7 +33,7 @@ export function object2Url(urlObject: UrlObject): string {
     url +=
       '#' +
       Object.keys(urlObject.hash)
-        .map(key => {
+        .map((key) => {
           if (urlObject.hash && urlObject.hash[key]) {
             return `${key}=${urlObject.hash[key]}`;
           } else {
