@@ -1,4 +1,4 @@
-import { v4 as uuid } from 'uuid';
+import { nanoid } from 'nanoid';
 
 export function randomString(length: number, characters?: string): string {
   characters = characters || 'ABCDEFGHJKMNPQRSTWXYZabcdefhijkmnprstwxyz2345678';
@@ -10,6 +10,6 @@ export function randomString(length: number, characters?: string): string {
   return result;
 }
 
-export function getUUID(): string {
-  return uuid();
+export function getRandomId(prefix?: string): string {
+  return (prefix || 'bn') + nanoid();
 }
