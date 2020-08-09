@@ -1,6 +1,9 @@
 name: Release
 
-on: push
+on:
+  push:
+    branches:
+      - master
 
 env:
   NODE_VERION: 12.x
@@ -36,6 +39,11 @@ jobs:
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+
+    - name: Inject version
+      uses: bndynet/github-action-inject-copyright@v1
+      with:
+        dist: dist
 
     - name: Publish to NPM
       run: npm publish
