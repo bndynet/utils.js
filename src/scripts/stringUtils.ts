@@ -11,5 +11,5 @@ export function randomString(length: number, characters?: string): string {
 }
 
 export function getRandomId(prefix?: string): string {
-  return (prefix || 'bn') + nanoid();
+  return prefix || 'bn' + nanoid();
 }
