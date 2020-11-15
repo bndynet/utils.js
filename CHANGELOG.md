@@ -1,3 +1,10 @@
+# 1.0.0 (2020-11-15)
+
+
+### Bug Fixes
+
+* format code ([8957f92](https://github.com/bndynet/utils.js/commit/8957f9288c697b8e9b7e0eca3967c9d48b3476d5))
+
 ## [1.2.3](https://github.com/bndynet/typescript-lib-starter/compare/v1.2.2...v1.2.3) (2020-11-14)
 
 
