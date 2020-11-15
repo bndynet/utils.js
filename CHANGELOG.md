@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/bndynet/utils.js/compare/v1.0.0...v1.0.1) (2020-11-15)
+
+
+### Bug Fixes
+
+* update packages for support export * as ns... ([153a362](https://github.com/bndynet/utils.js/commit/153a362cfa7017f851cca3b04ced23692521d225))
+
 # 1.0.0 (2020-11-15)
 
 
