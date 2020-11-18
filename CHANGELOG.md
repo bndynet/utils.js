@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/bndynet/utils.js/compare/v1.0.1...v1.0.2) (2020-11-18)
+
+
+### Bug Fixes
+
+* **url:** resolveUrl issue ([3ad038f](https://github.com/bndynet/utils.js/commit/3ad038fd9f97bf9ab5e83638ed3b646ac058a2e0))
+
 ## [1.0.1](https://github.com/bndynet/utils.js/compare/v1.0.0...v1.0.1) (2020-11-15)
 
 

@@ -1,14 +1,14 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <title>Code coverage report for urlUtils.ts</title>
+    <title>Code coverage report for src/scripts/urlUtils.ts</title>
     <meta charset="utf-8" />
-    <link rel="stylesheet" href="prettify.css" />
-    <link rel="stylesheet" href="base.css" />
+    <link rel="stylesheet" href="../../prettify.css" />
+    <link rel="stylesheet" href="../../base.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <style type='text/css'>
         .coverage-summary .sorter {
-            background-image: url(sort-arrow-sprite.png);
+            background-image: url(../../sort-arrow-sprite.png);
         }
     </style>
 </head>
@@ -16,18 +16,18 @@
 <div class='wrapper'>
   <div class='pad1'>
     <h1>
-      <a href="index.html">All files</a> urlUtils.ts
+      <a href="../../index.html">All files</a> / <a href="index.html">src/scripts</a> urlUtils.ts
     </h1>
     <div class='clearfix'>
       <div class='fl pad1y space-right2'>
-        <span class="strong">77.78% </span>
+        <span class="strong">75% </span>
         <span class="quiet">Statements</span>
-        <span class='fraction'>21/27</span>
+        <span class='fraction'>30/40</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">80.77% </span>
+        <span class="strong">69.44% </span>
         <span class="quiet">Branches</span>
-        <span class='fraction'>21/26</span>
+        <span class='fraction'>25/36</span>
       </div>
       <div class='fl pad1y space-right2'>
         <span class="strong">71.43% </span>
@@ -35,9 +35,9 @@
         <span class='fraction'>5/7</span>
       </div>
       <div class='fl pad1y space-right2'>
-        <span class="strong">77.78% </span>
+        <span class="strong">75% </span>
         <span class="quiet">Lines</span>
-        <span class='fraction'>21/27</span>
+        <span class='fraction'>30/40</span>
       </div>
     </div>
     <p class="quiet">
@@ -121,7 +121,27 @@
 <a name='L73'></a><a href='#L73'>73</a>
 <a name='L74'></a><a href='#L74'>74</a>
 <a name='L75'></a><a href='#L75'>75</a>
-<a name='L76'></a><a href='#L76'>76</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
+<a name='L76'></a><a href='#L76'>76</a>
+<a name='L77'></a><a href='#L77'>77</a>
+<a name='L78'></a><a href='#L78'>78</a>
+<a name='L79'></a><a href='#L79'>79</a>
+<a name='L80'></a><a href='#L80'>80</a>
+<a name='L81'></a><a href='#L81'>81</a>
+<a name='L82'></a><a href='#L82'>82</a>
+<a name='L83'></a><a href='#L83'>83</a>
+<a name='L84'></a><a href='#L84'>84</a>
+<a name='L85'></a><a href='#L85'>85</a>
+<a name='L86'></a><a href='#L86'>86</a>
+<a name='L87'></a><a href='#L87'>87</a>
+<a name='L88'></a><a href='#L88'>88</a>
+<a name='L89'></a><a href='#L89'>89</a>
+<a name='L90'></a><a href='#L90'>90</a>
+<a name='L91'></a><a href='#L91'>91</a>
+<a name='L92'></a><a href='#L92'>92</a>
+<a name='L93'></a><a href='#L93'>93</a>
+<a name='L94'></a><a href='#L94'>94</a>
+<a name='L95'></a><a href='#L95'>95</a>
+<a name='L96'></a><a href='#L96'>96</a></td><td class="line-coverage quiet"><span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -186,6 +206,26 @@
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-no">&nbsp;</span>
@@ -197,12 +237,12 @@
 <span class="cline-any cline-no">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">import { parse as qsParse } from 'query-string';
-import { parse as urlParse, resolve } from 'url';
+import * as URLParser from 'url-parse';
 &nbsp;
 export interface UrlObject {
   protocol: string;
   host?: string;
-  port: number;
+  port?: string;
   search: { [key: string]: any };
   hash: { [key: string]: any };
   pathname?: string;
@@ -211,7 +251,7 @@ export interface UrlObject {
 }
 &nbsp;
 export function object2Url(urlObject: UrlObject): string {
-  let url = `${urlObject.protocol}://${urlObject.host}${urlObject.port &amp;&amp; urlObject.port &gt; 0 ? <span class="branch-0 cbranch-no" title="branch not covered" >':' + urlObject.port </span>: ''}${urlObject.pathname}`;
+  let url = `${urlObject.protocol}://${urlObject.host}${urlObject.port ? <span class="branch-0 cbranch-no" title="branch not covered" >':' + urlObject.port </span>: ''}${urlObject.pathname}`;
 &nbsp;
   <span class="missing-if-branch" title="else path not taken" >E</span>if (urlObject.search &amp;&amp; Object.keys(urlObject.search).length &gt; 0) {
     url +=
@@ -245,21 +285,41 @@ export function object2Url(urlObject: UrlObject): string {
 }
 &nbsp;
 export function parseUrl(url: string): UrlObject {
-  const parsed = urlParse(url);
+  const parsed = new URLParser(url);
   const urlEntity: UrlObject = {
-    protocol: parsed.protocol!.replace(':', ''),
+    protocol: parsed.protocol.replace(':', ''),
     host: parsed.host,
-    port: parseInt(parsed.port || '-1'),
+    port: parsed.port,
     hostname: parsed.hostname,
     pathname: parsed.pathname,
-    search: qsParse(parsed.search || ''),
+    search: qsParse(parsed.query || ''),
     hash: qsParse(parsed.hash || ''),
   };
   return urlEntity;
 }
 &nbsp;
 export function resolveUrl(from: string, to: string): string {
-  return resolve(from, to);
+  const root = from.indexOf('//') &gt; 0 ? from.split('//')[0] + '//' + from.split('//')[1].split('/')[0] : <span class="branch-1 cbranch-no" title="branch not covered" >'';</span>
+&nbsp;
+  let paths = from.indexOf('//') &gt; 0 ? from.split('//')[1].split('/').slice(1) : <span class="branch-1 cbranch-no" title="branch not covered" >from.split('//')[0].split('/').slice(1);</span>
+  <span class="missing-if-branch" title="else path not taken" >E</span>if (paths.length &gt; 0) {
+    paths = paths.slice(0, paths.length - 1);
+  }
+&nbsp;
+  let result = root;
+  if (to.startsWith('/')) {
+    result += to;
+  } else <span class="missing-if-branch" title="if path not taken" >I</span>if (to.startsWith('../')) {
+<span class="cstat-no" title="statement not covered" >    do {</span>
+<span class="cstat-no" title="statement not covered" >      to = to.replace('../', '');</span>
+<span class="cstat-no" title="statement not covered" >      paths = paths.slice(0, paths.length - 1);</span>
+    } while (to.startsWith('../'));
+<span class="cstat-no" title="statement not covered" >    result += (paths.length === 0 ? '' : '/' + paths.join('/')) + '/' + to;</span>
+  } else {
+    result += (paths.length === 0 ? '' : '/' + paths.join('/')) + '/' + to;
+  }
+&nbsp;
+  return result;
 }
 &nbsp;
 export function <span class="fstat-no" title="function not covered" >setQueryString(</span>url: string, key: string, value: any): string {
@@ -277,10 +337,10 @@ export function <span class="fstat-no" title="function not covered" >getCurrentU
 </div><!-- /wrapper -->
 <div class='footer quiet pad2 space-top1 center small'>
   Code coverage
-  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Sun Nov 15 2020 14:35:36 GMT+0000 (Coordinated Universal Time)
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Wed Nov 18 2020 10:03:26 GMT+0000 (Coordinated Universal Time)
 </div>
 </div>
-<script src="prettify.js"></script>
+<script src="../../prettify.js"></script>
 <script>
 window.onload = function () {
         if (typeof prettyPrint === 'function') {
@@ -288,7 +348,7 @@ window.onload = function () {
         }
 };
 </script>
-<script src="sorter.js"></script>
-<script src="block-navigation.js"></script>
+<script src="../../sorter.js"></script>
+<script src="../../block-navigation.js"></script>
 </body>
 </html>
