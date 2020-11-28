@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/bndynet/utils.js/compare/v1.0.3...v1.1.0) (2020-11-28)
+
+
+### Features
+
+* **test:** generate mock data ([59fe8f6](https://github.com/bndynet/utils.js/commit/59fe8f61472b63a3a2286ac76f6e518bf0979536))
+
 ## [1.0.3](https://github.com/bndynet/utils.js/compare/v1.0.2...v1.0.3) (2020-11-18)
 
 
