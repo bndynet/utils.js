@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/bndynet/utils.js/compare/v1.1.0...v1.1.1) (2020-11-28)
+
+
+### Bug Fixes
+
+* **test:** nothing exports ([a1b0803](https://github.com/bndynet/utils.js/commit/a1b0803af0a74f06e455d866221fe1a12118c32c))
+
 # [1.1.0](https://github.com/bndynet/utils.js/compare/v1.0.3...v1.1.0) (2020-11-28)
 
 
