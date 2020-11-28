@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/bndynet/utils.js/compare/v1.1.1...v1.1.2) (2020-11-28)
+
+
+### Bug Fixes
+
+* all modules cannot be exported for umd ([e6afc2f](https://github.com/bndynet/utils.js/commit/e6afc2fc50202be605d5cf9a7e3672aec87dd3b9))
+
 ## [1.1.1](https://github.com/bndynet/utils.js/compare/v1.1.0...v1.1.1) (2020-11-28)
 
 
