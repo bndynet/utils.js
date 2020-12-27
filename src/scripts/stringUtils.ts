@@ -13,3 +13,11 @@ export function randomString(length: number, characters?: string): string {
 export function getRandomId(prefix?: string): string {
   return prefix || 'bn' + nanoid();
 }
+
+export function replaceAll(text: string, value: string, replacement: string): string {
+  return text.replace(new RegExp(value, 'ig'), replacement);
+}
+
+export function removeDuplicatedSlashesForUrl(url: string): string {
+  return url.replace(/(?<!:)\/{2,}/g, '/');
+}
