@@ -1,3 +1,10 @@
+# [1.2.0](https://github.com/bndynet/utils.js/compare/v1.1.2...v1.2.0) (2023-05-16)
+
+
+### Features
+
+* **string:** removeDuplicatedSlashesForUrl and replaceAll ([db42206](https://github.com/bndynet/utils.js/commit/db422066a936a4b9efab3dd2af82d55c9153cf57))
+
 ## [1.1.2](https://github.com/bndynet/utils.js/compare/v1.1.1...v1.1.2) (2020-11-28)
 
 
