@@ -1,4 +1,4 @@
-import { parseUrl, resolveUrl, object2Url } from './urlUtils';
+import { parseUrl, resolveUrl, object2Url } from './url';
 
 describe('Test for urlUtils', () => {
   it('parseUrl', () => {

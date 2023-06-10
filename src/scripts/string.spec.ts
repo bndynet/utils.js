@@ -1,4 +1,4 @@
-import { replaceAll, removeDuplicatedSlashesForUrl } from './stringUtils';
+import { replaceAll, removeDuplicatedSlashesForUrl } from './string';
 describe('test for stringUtils', () => {
   it('replaceAll', () => {
     const text = `abcdabcdefg`;
