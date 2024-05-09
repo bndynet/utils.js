@@ -1,3 +1,15 @@
+# [2.0.0](https://github.com/bndynet/utils.js/compare/v1.2.0...v2.0.0) (2024-05-09)
+
+
+### Code Refactoring
+
+* rename module names ([4a35b11](https://github.com/bndynet/utils.js/commit/4a35b11e8b4bde80380db7866095e3e6cdafcf78))
+
+
+### BREAKING CHANGES
+
+* remove suffix name for each module
+
 # [1.2.0](https://github.com/bndynet/utils.js/compare/v1.1.2...v1.2.0) (2023-05-16)
 
 

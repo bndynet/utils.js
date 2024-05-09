@@ -1,6 +1,6 @@
 {
   "name": "@bndynet/utils",
-  "version": "1.2.0",
+  "version": "2.0.0",
   "description": "Utils for JavaScript",
   "main": "dist/utils.umd.js",
   "module": "dist/utils.es5.js",
